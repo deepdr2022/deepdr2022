@@ -1,0 +1,18 @@
+batch_size: {ab: 64, ge: 16}
+
+lr: {ab: 0.0008, ge: 0.0008}
+
+epochs: 3000
+
+activation: ["relu"]
+
+mask_frac: {"ab": 0.7 ,"ge": 0.6}
+
+
+feature_in: {"ab": 24, "ge": 46}
+
+feature_hid: {"ab": 30, "ge": 40}
+
+heads: {"ab": 5, "ge": 3}
+
+num_layers: {"ab": 5, "ge": 3}
