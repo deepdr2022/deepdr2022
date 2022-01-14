@@ -7,11 +7,14 @@
 > 3. Put these two data files in this directory
 
 ### Train
-
-> python train_deepdr.py --dataname ab  # train the DeepDR model Abilene
-> python train_deepdr.py --dataname ge  # train the DeepDR model GEANT
+```python
+python train_deepdr.py --dataname ab  # train the DeepDR model Abilene
+python train_deepdr.py --dataname ge  # train the DeepDR model GEANT
+```
 
 ### Test
 
-> python test.py --dataname ab --model DeepDR --modelpath ab_deepdr # get test results for Abilene
-> python test.py --dataname ge --model DeepDR --modelpath ge_deepdr # get test results for GEANT
+```python
+python test.py --dataname ab --model DeepDR --modelpath ab_deepdr # get test results for Abilene
+python test.py --dataname ge --model DeepDR --modelpath ge_deepdr # get test results for GEANT
+```
