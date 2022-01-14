@@ -1,4 +1,4 @@
-## Code repo for paper: `DeepDR Deep Learning-based Data Recovery for Network Measurement`
+## Code repo for paper: `DeepDR: Deep Learning-based Data Recovery for Network Measurement`
 
 ### Get the data
 
