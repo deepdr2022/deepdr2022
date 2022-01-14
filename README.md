@@ -8,6 +8,7 @@
 
 ### Train
 
+> python train_deepdr.py --dataname ab  # train the DeepDR model Abilene
 > python train_deepdr.py --dataname ge  # train the DeepDR model GEANT
 
 ### Test
